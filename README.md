@@ -1,5 +1,5 @@
 # Evil Tux
-I woke up today and decided to choose violence. So I forked linux source tree and modified bochs setmode function in bochs driver. (Basically increased bpp to 256 just for fun).
+I woke up today and decided to choose violence. So I forked linux source tree and modified bochs setmode function in bochs driver. (Basically decreased bpp to 16 just for fun).
 And now tux is evil.
 
 # Instructions (to check out the EVIL TUX)
