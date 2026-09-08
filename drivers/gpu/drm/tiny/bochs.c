@@ -331,7 +331,7 @@ static void bochs_hw_setmode(struct bochs_device *bochs, struct drm_display_mode
 
 	bochs->xres = mode->hdisplay;
 	bochs->yres = mode->vdisplay;
-	bochs->bpp = 32;
+	bochs->bpp = 16;
 	bochs->stride = mode->hdisplay * (bochs->bpp / 8);
 	bochs->yres_virtual = bochs->fb_size / bochs->stride;
 
